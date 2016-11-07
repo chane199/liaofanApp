@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="kind_list">
+		<item>A类</item>
+		<item>B类</item>
+		<item>C类</item>
+		<item>D类</item>
+		<item>E类</item>
+		<item>F类</item>
+	</string-array>
+	<string-array name="availTime">
+		<item>6h</item>
+		<item>12h</item>
+		<item>18h</item>
+		<item>24h</item>
+		<item>2Days</item>
+		<item>1Week</item>
+		<item>1Month</item>
+	</string-array>	
+
+</resources>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    
+    >
+    
+	<item
+		android:id="@+id/t1"
+
+		android:title="6h" />
+	<item
+	 
+		android:id="@+id/t2"
+	
+		android:title="12h" />
+	<item
+		android:id="@+id/t3"
+		
+		android:title="18h" />
+	<item
+		android:id="@+id/t4"
+
+		android:title="24h" />
+	<item
+		android:id="@+id/t5"
+
+		android:title="2Days" />
+	<item
+		android:id="@+id/t6"
+		
+
+		android:title="1Week" />
+	<item
+		android:id="@+id/t7"
+
+		android:title="1Month" />
+
+
+</menu>

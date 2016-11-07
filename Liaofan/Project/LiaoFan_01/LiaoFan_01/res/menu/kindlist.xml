@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item
+		android:id="@+id/A"
+		android:icon="@android:drawable/ic_menu_search"
+		android:title="A类" />
+	<item
+		android:id="@+id/B"
+		android:title="B类" 
+		android:icon="@android:drawable/ic_menu_add"/>
+	  <item
+		android:id="@+id/C"
+		android:icon="@android:drawable/ic_menu_search"
+		android:title="C类" />
+	<item
+		android:id="@+id/D"
+		android:title="D类" 
+		android:icon="@android:drawable/ic_menu_add"/>
+	  <item
+		android:id="@+id/E"
+		android:icon="@android:drawable/ic_menu_search"
+		android:title="E类" />
+	<item
+		android:id="@+id/F"
+		android:title="F类" 
+		android:icon="@android:drawable/ic_menu_add"/>
+	  
+	
+
+</menu>

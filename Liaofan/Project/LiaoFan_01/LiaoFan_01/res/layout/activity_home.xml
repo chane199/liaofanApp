@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal" 
+    tools:context="com.liaofan_01.kindmanage.HomeActivity" >
+
+ 
+        <ViewFlipper 
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:flipInterval="400"        
+        	android:id="@+id/details">
+        	
+            
+            <TextView  
+		        android:id="@+id/tv1"
+		        android:layout_width="match_parent"  
+		        android:layout_height="150dip"  
+		        android:layout_gravity="center"  
+		        android:text="走马灯效果的演示1"   
+		        android:singleLine="true"  
+		        android:ellipsize="marquee"
+		   />
+           <TextView  
+		        android:id="@+id/tv2"
+		        android:layout_width="match_parent"  
+		        android:layout_height="150dip"  
+		        android:layout_gravity="center"  
+		        android:text="走马灯效果的演示2"   
+		        
+		        android:ellipsize="marquee"
+		    /> 
+		   <TextView  
+		        android:id="@+id/tv3"
+		        android:layout_width="match_parent"  
+		        android:layout_height="150dip"  
+		        android:layout_gravity="center"  
+		        android:text="走马灯效果的演示3"   
+		        android:singleLine="true"  
+		        android:ellipsize="marquee"
+		    />
+		  <TextView  
+		        android:id="@+id/tv4"
+		        android:layout_width="match_parent"  
+		        android:layout_height="150dip"  
+		        android:layout_gravity="center"  
+		        android:text="走马灯效果的演示4"   
+		        android:singleLine="true"  
+		        android:ellipsize="marquee"
+		       />   
+		         
+        </ViewFlipper>
+        
+    	<ListView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:id="@+id/kindList"
+	        android:layout_below="@id/details"/>
+        
+  
+    </RelativeLayout>
